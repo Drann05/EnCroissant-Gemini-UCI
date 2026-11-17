@@ -1,4 +1,4 @@
-# Gemini Coach UCI
+# Gemini Coach UCI (Linux only)
 
 A custom **UCI (Universal Chess Interface)** chess engine wrapper written in Python that bridges **Stockfish** with the **Google Gemini API**.
 
