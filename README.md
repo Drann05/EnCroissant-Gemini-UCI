@@ -1,4 +1,4 @@
-# Gemini Coach UCI
+# Gemini Coach UCI (Linux only)
 
 A custom **UCI (Universal Chess Interface)** chess engine wrapper written in Python that bridges **Stockfish** with the **Google Gemini API**.
 
@@ -36,11 +36,9 @@ Pure LLMs struggle with chess calculation and frequently hallucinate illegal mov
    chmod +x ~/.local/bin/gemini_uci.py
    ```
 
-2. **Set your Gemini API Key** as an environment variable:
+2. **Write your Gemini API Key** in line 63:
    ```bash
-   export GEMINI_API_KEY="your_api_key_here"
-   ```
-   *(If launching your chess GUI from a desktop environment/window manager, make sure `GEMINI_API_KEY` is exported in your session environment).*
+   API_KEY: str = "YOUR_GEMINI_API_KEY"
 
 3. **Create your custom instructions file:**
    ```bash
